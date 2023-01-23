@@ -1,0 +1,28 @@
+#presentation {
+    background-color: #a1d6e2;
+    padding: 10px 5px 75px 5px; /* Le padding haut droite bas gauche (comme le sens horaires) */
+}
+#textIntro {
+    padding: 0 10%;
+    margin: 0;
+    font-size: 1.3em;
+    font-weight: 300;
+}
+#presentationCategories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.imagesPresentationCategories {
+    margin: 15px;
+}    
+.imagesPresentationCategories img {
+    border-radius: 10px;
+    box-shadow: 5px 5px 2px 1px rgba(0,0,0,0.6); /* Horizontal, vertical, floutage de l'ombre, épaisseur de l'ombre.*/
+}
+.imagesPresentationCategories img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}

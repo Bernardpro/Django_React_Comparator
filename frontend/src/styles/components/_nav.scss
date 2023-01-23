@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
+
+.navigation {
+    background-color: #a1d6e2;
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+}
+li {
+    float: right;
+    font-size: 1.2rem;
+    font-family: 'Advent Pro', 'sans-serif';;
+    text-decoration: none;
+    display: block;
+    padding: 18px 16px; /* En haut et en bas 18px puis à gauche et à droite se sera 16px */
+    color: black;
+    list-style-type: none;
+}
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float: left;
+}

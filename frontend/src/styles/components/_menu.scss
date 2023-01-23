@@ -1,0 +1,48 @@
+
+.divMenu button {
+  background-color: #a1d6e2;
+  color: black;
+  font-size: 1.1em;
+  padding: 0;
+  border: none;
+  width: 55%;
+   
+}
+  
+.divMenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    a {
+      text-decoration: unset;
+    }
+    
+}
+.divMenu ul ::after{
+  content: "";
+  display: inline ;
+  clear: both;
+  
+    
+}
+.divMenu ul li {
+  float : none;
+  
+
+}
+  
+.divMenu li {
+  background-color: #333;
+  color: #fff;
+  padding: 12px;
+  font-size:1.0em;
+  width: 55%;
+  border-radius: 5px;
+  position : relative;
+}
+  
+.divMenu li:hover {
+  background-color: #555;
+  
+}
