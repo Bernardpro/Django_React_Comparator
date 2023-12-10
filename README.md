@@ -32,4 +32,5 @@ npm start
 ## Usage
 Initiate Scraping: Access the bernard_comparator/comparator/webscraping
 /webscraping.py file to trigger the scraping process.
+
 Data Visualization: Use the React interface to compare the products, prices, and other aspects between Celio and Jules.
