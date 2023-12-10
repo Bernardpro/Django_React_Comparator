@@ -17,8 +17,9 @@ git clone https://github.com/Bernardpro/Django_React_Comparator.git
 2. Set Up the Django Environment
 
 ```
-cd Django_React_Comparator
+cd bernard_comparator
 pip install -r requirements.txt
+cd bernard_comparator
 python manage.py migrate
 python manage.py runserver
 ```
