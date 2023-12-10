@@ -12,21 +12,21 @@ This project is a comprehensive web application designed to compare and analyze 
 
 1. **Clone the Repository**
 ```
-  git clone https://github.com/Bernardpro/Django_React_Comparator.git
+git clone https://github.com/Bernardpro/Django_React_Comparator.git
 ```
 2. Set Up the Django Environment
 
 ```
-  cd Django_React_Comparator
-  pip install -r requirements.txt
-  python manage.py migrate
-  python manage.py runserver
+cd Django_React_Comparator
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py runserver
 ```
 3. Set Up the React Application
 ```
-  cd frontend
-  npm install
-  npm start
+cd frontend
+npm install
+npm start
 ```
 ## Usage
 Initiate Scraping: Access the Django admin panel to trigger the scraping process.
